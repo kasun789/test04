@@ -14,6 +14,13 @@ public class newClass {
                     .filter(n-> n%2 ==0)
                     .map(n-> n*2)
                     .reduce(0, (a,b)-> a+b);
+        ArrayList list = new ArrayList<Integer>();
+
+        list.add(2);
+        list.add(2);
+        list.add(2);
+        list.add(2);
+
 
         System.out.println(value);
         
